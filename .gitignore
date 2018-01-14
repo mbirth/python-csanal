@@ -1,0 +1,6 @@
+/data/*
+!/data/.gitignore
+*.pyc
+/car2go.db3
+/car2go.db3-shm
+/car2go.db3-wal
