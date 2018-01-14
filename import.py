@@ -43,6 +43,7 @@ class C2GImport:
             stamp_str = stamp.group(1)
             stamp_dt  = datetime.datetime.strptime(stamp_str + "+0100", "%Y-%m-%d_%H%M%S%z")
             if stamp_dt <= max_date_dt:
+                file_count -= 1
                 continue
             ctr += 1
             self.scanfile(f, stamp_str, stamp_dt, ctr, file_count)

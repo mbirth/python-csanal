@@ -4,6 +4,13 @@ Car Sharing Analyser
 This is a collection of scripts and tools to gather, prepare and analyse data about a
 German car sharing company.
 
+Requirements
+------------
+
+* Python 3.6 or newer (3.5 will probably work, too)
+  * geopy
+* SQLite 3.7.11 or newer commandline client
+
 
 Gathering
 ---------
