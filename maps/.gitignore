@@ -1,0 +1,4 @@
+/assets/*.js
+/assets/*.map
+/node_modules/
+/map_data.js
